@@ -8,7 +8,7 @@ import numpy as np
 # LOAD MODEL
 # ============================================
 
-MODEL_PATH = "model/rf_augmented.pkl"
+MODEL_PATH = "rf_augmented.pkl"
 
 model = joblib.load(MODEL_PATH)
 
